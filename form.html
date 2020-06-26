@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Matérias</title>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html">Sair</a>
+        <input type="text" name="autor" onblur="">
+        <input type="text" name="titulo" onblur="">
+        <input type="date" name="data" onblur="">
+        <input type="file" name="img" onblur="">
+        <textarea rows="20" onblur="salvar()"></textarea>
+        <button id="publicar" onclick="salvar()">Publicar</button>  
+    </div>
+       <script src="form_x.js"></script>
+</body>
+</html>
