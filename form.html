@@ -10,11 +10,16 @@
 <body>
     <div class="container">
         <a href="index.html">Sair</a>
+        <label>Nome do Autor</label>
         <input type="text" name="autor" onblur="">
+        <label>Título do Artigo</label>
         <input type="text" name="titulo" onblur="">
+        <label>Data</label>
         <input type="date" name="data" onblur="">
+        <label>Arquivos(Tam Máximo 420px <b>X</b> 420px) </label>
         <input type="file" name="img" onblur="">
-        <textarea rows="20" onblur="salvar()"></textarea>
+        <label>Texto</label>
+        <textarea rows="20" onblur=""></textarea>
         <button id="publicar" onclick="salvar()">Publicar</button>  
     </div>
        <script src="form_x.js"></script>
